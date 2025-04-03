@@ -1,5 +1,5 @@
 // Import du module HTTP intégré à Node
-const http = require('http');
+import http from 'http';
 
 // Création du serveur
 const server = http.createServer((req, res) => {
